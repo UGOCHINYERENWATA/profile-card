@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 5rem;    
+}
+
+.card {
+    background-color: burlywood;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    max-height: fit-content;
+    margin: 5rem 5rem;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+h2, h3 {
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0.5rem 0.5rem;
+}
+
+.social-links a {
+    text-decoration: none;
+    margin: 0 1rem;
+    color: darkblue;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
